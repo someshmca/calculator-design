@@ -1,0 +1,46 @@
+
+
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   outline: none;
+}
+button:hover, button:focus{
+    border: none;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+    padding: 20px;
+    display: flex;
+}
+ul{
+    list-style-type: none;
+}
+.calc-ul{
+    width: 300px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.calc-ul li{
+    padding: 35px;
+    text-align: center;  
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: bold;
+} 
+.buttons-area{
+    padding: 15px;    
+}
+.c-btn{
+    background: #71BDD4;
+    color: #ffffff;
+    cursor: pointer;
+    height: 40px;
+    margin: 15px auto;
+    width: 120px;
+    border: none;
+    font-size: 1rem;
+}
+
